@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+/*Google font*/
+
+@font-face{
+    font-family:roboto regular ; 
+    color: rgb(55, 41, 4);
+    src: url('fonts/Roboto/Roboto-Regular.ttf');
+}
+
+/* Header */  
+
+.home{
+    text-decoration: none;
+    background-color: rgb(237, 230, 215);
+    font-family: roboto regular;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(96, 72, 7);
+    flex-wrap: wrap;
+}
+
+/*Mobile*/
+
+@media screen and (max-width:480px) {
+    .home{
+        background-color: rgb(226, 218, 196);
+    }
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .home{
+        background-color: rgb(247, 241, 226);
+    }
+}
+
+/*Desktop*/
+@media screen and (min-width:769px){
+    .home{
+        background-color: rgb(196, 185, 163);
+    }
+}
+
+.logo{
+    text-align: center;
+    display:flex;    
+    justify-content: center;
+    margin: 20px;
+    padding: 1%;
+}
+
+header {
+    display: contents;
+}
+
+ul li{
+    margin: 2%;
+    text-decoration-color: rgb(96, 72, 7);
+    display:inline-block;
+    font-size: 16px;
+}
+
+nav{
+    text-align:center;
+}
+
+/* Fin header */  
+
+
+/* Comienza sección inicio */
+
+.container{
+    margin: 0px;
+    width: 250px;
+    height: 700px;
+    display: flex;
+    background-size: cover;
+    position: relative;
+}
+.container p{
+    font-size: 4rem;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+
+
+/* Termina sección inicio */
+
+
+/* Inicia sección Acerca de */
+.mision{
+    width: 840px;
+    height: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mision p{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    text-align:center;
+    left: 50px;
+}
+
+
+/* Termina sección Acerca de */
+
+
+/* Inicia sección Servicios */
+
+.centrado{
+    padding-top: 100px;
+    text-align:center;
+    text-size-adjust: 20px;
+    transition: all 2s;
+}
+
+.centrado:hover{
+    transform: scale(1.2);
+}
+
+.centrado p{
+    height: 100px;
+    padding: 2%
+}
+
+.centrado2{
+    text-align:center;
+    text-size-adjust: 10px;
+    transition: all 2s;
+}
+
+.centrado2:hover{
+    transform: scale(1.2);
+}
+
+.centrado2 p{
+    height: 100px;
+    padding: 2%
+}
+
+.centrado3{
+    text-align:center;
+    text-size-adjust: 10px;
+    transition: all 2s;
+}
+
+.centrado3:hover{
+    transform: scale(1.2);
+}
+
+.centrado3 p{
+    height: 100px;
+    padding: 10%
+}
+
+
+/* Termina sección Servicios */
+
+
+/* Inicia sección Portafolio */
+
+.carousel {
+    margin: 150px;
+    text-align: center;
+}
+
+.descripcion{
+    padding-top: 20px;
+    padding-bottom: 120px;
+    text-align: center;
+
+}
+
+
+/* Termina sección Portafolio */
+
+
+/* Inicia sección Blog */
+
+.blog{
+    margin: 50px;
+    text-align: center;
+}
+
+.articulo{
+    margin: 50px;
+    padding: 50px;
+    display: inline-flexbox;
+    text-align: center;
+}
+/* Termina sección Blog */
+
+
+/* Inicia sección Contacto */
+
+.frase{
+    display: block;
+    text-align: center;
+    text-decoration: solid;
+    padding: 5px;
+}
+
+.formulario{
+    background-size: cover;
+    display:flexbox;
+    text-align: center;
+    padding: 50px;
+}
+/* Termina sección Contacto */
+
+
+/* Inicia sección Footer */
+
+/* Termina sección Footer */
+
+
