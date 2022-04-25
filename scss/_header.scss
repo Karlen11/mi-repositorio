@@ -9,10 +9,18 @@ header{
                 li{
                     a{
                         text-decoration: underline;
+                        &:hover{
+                            text-decoration: overline;
+                        }
                     }
 
                 }
             }
         }
     }
+
+    @media screen and (max: width 468px){
+        background-color: burlywood;
+    }
+
 }

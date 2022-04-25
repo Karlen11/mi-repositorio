@@ -8,5 +8,13 @@ header nav div ul {
 header nav div ul li a {
   text-decoration: underline;
 }
+header nav div ul li a:hover {
+  text-decoration: overline;
+}
+@media screen and (max: width 468px) {
+  header {
+    background-color: burlywood;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
