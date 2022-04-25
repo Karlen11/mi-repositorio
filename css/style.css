@@ -1,3 +1,12 @@
-
+/*Header*/
+header {
+  background-color: beige;
+}
+header nav div ul {
+  list-style: none;
+}
+header nav div ul li a {
+  text-decoration: underline;
+}
 
 /*# sourceMappingURL=style.css.map */
