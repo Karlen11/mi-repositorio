@@ -1,9 +1,13 @@
 /*Header*/
 
+@import "variables";
+
+
 header{
     background-color: beige;
     border-radius: 4px;
     nav{
+        padding: $relleno;
         div{
             ul{ 
                 list-style: none;
