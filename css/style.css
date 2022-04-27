@@ -1,18 +1,50 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 3 | @import "variables";
- *   |         ^^^^^^^^^^^
- *   '
- *   scss/_header.scss 3:9  @import
- *   scss/style.scss 1:9    root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 3 \2502  @import \"variables\";\a   \2502          ^^^^^^^^^^^\a   \2575 \a   scss/_header.scss 3:9  @import\a   scss/style.scss 1:9    root stylesheet";
+@charset "UTF-8";
+/*Header*/
+#standar {
+  background-color: rgb(108, 97, 49);
 }
+
+#premium {
+  font-size: rgb(224, 195, 151);
+}
+
+h1 {
+  font-size: 16px;
+}
+
+header {
+  background-color: beige;
+  border-radius: 4px;
+}
+header nav {
+  padding: 20px;
+}
+header nav div ul {
+  list-style: none;
+}
+header nav div ul li a {
+  text-decoration: underline;
+}
+header nav div ul li a:hover {
+  text-decoration: overline;
+}
+@media screen and (max-width: 468px) {
+  header {
+    background-color: burlywood;
+  }
+}
+
+/* Sección Inicio */
+h1 {
+  font-size: 16px;
+}
+
+#standar {
+  background-color: rgb(108, 97, 49);
+}
+
+#premium {
+  font-size: rgb(224, 195, 151);
+}
+
+/*# sourceMappingURL=style.css.map */
