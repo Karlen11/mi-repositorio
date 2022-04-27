@@ -1,0 +1,22 @@
+
+
+
+$usuario-standard: (
+    bg-color-stantard: rgb(108, 97, 49),
+    border-standard: 1px solid rgb(108, 97, 49),
+    font-standard: 2rem
+);
+
+$usuario-premium: (
+    bg-color-premium: rgb(224, 195, 151),
+    border-premium: 1px solid rgb(223, 203, 175),
+    font-premium: 3rem
+);
+
+#standar{
+    background-color: map-get($usuario-standard, bg-color-stantard);
+}
+
+#premium {
+    font-size: map-get($map: $usuario-premium, $key: bg-color-premium);
+}
