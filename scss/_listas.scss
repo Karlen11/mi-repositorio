@@ -12,7 +12,9 @@ $size:
 10px,
 20px;
 
-
+p{
+    font-size: nth($list: 1, $n: );
+}
 
 
 
