@@ -1,0 +1,15 @@
+
+@mixin justo ($valor) {
+    transform: $valor;
+
+}
+
+.magic {
+    @include justo(scale(3)) 
+}
+
+.more-magic{
+    @include justo(rotate(30deg))
+}
+
+
