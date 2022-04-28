@@ -47,4 +47,43 @@ h1 {
   font-size: rgb(224, 195, 151);
 }
 
+.border-menu {
+  border-bottom: 1px solid #001a00;
+}
+
+.border-menu {
+  border-top: 1px solid white;
+}
+
+.bg-navar {
+  background-color: beige;
+}
+.bg-navar:hover {
+  background-color: #7bbb6e;
+}
+
+.ok, .error {
+  border-radius: 6px;
+  padding: 10px 15px;
+  border: 1px solid white;
+}
+
+.ok, .error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+  background-color: red;
+}
+
+.ok {
+  background-color: green;
+}
+
+.button {
+  padding: 400px;
+}
+
 /*# sourceMappingURL=style.css.map */
